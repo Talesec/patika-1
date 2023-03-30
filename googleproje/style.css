@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    text-align: center;
+}
+.search{
+    background-color: rgb(237, 232, 232);
+    text-align: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 100px;
+}
+.boxes div{
+    width: 500px;
+    margin: 3px;
+    text-align: center;
+}
+.boxes a{
+    display: flex;
+    flex-direction: column;
+    color: rgb(10, 10, 135);
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+}
+footer{
+    text-align: center;
+}
